@@ -1,3 +1,7 @@
+EnsJobeetBundle_homepage:
+    pattern:  /
+    defaults: { _controller: EnsJobeetBundle:Job:index }
+
 ens_jobeet_ens_job:
     resource: "@EnsJobeetBundle/Resources/config/routing/job.yml"
     prefix:   /job
